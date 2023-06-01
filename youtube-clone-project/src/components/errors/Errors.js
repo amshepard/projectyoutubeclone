@@ -16,7 +16,7 @@ function ErrorMessage() {
   // Define function handleClose to update show state variable
   const handleClose = () => setShow(false);
 
-  // Render Modal component using Bootstrap and JSX
+  // Render Modal component using Bootstrap and JSX.
   return (
     <div>
         <Modal show={show} onHide={handleClose}>
