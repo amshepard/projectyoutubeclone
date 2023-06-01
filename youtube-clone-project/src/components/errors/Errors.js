@@ -18,7 +18,7 @@ function ErrorMessage() {
 
   // Render Modal component using Bootstrap and JSX.
   return (
-    <div>
+    <div className='error'>
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
                 <Modal.Title>Error</Modal.Title>

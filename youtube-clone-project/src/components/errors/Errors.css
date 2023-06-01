@@ -1,0 +1,8 @@
+.error {
+    font-family: Georgia;
+    text-align: center;
+  }
+  
+  .error h1, .error h3, .error p {
+    text-align: center;
+  }
