@@ -1,0 +1,10 @@
+.content{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.video-embed{
+    width: 854px;
+    height: 480px;
+}

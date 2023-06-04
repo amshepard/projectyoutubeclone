@@ -1,0 +1,29 @@
+.search-form{
+    margin: 20px 0px;
+}
+
+.search-input{
+    border-radius: 5px;
+    height: 27px;
+    width: 500px;
+    border: 1.5px solid rgb(181, 178, 178);
+    padding: 5px;
+}
+
+.search-button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(204, 75, 75);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.search-amount{
+    border-radius: 5px;
+    height: 27px;
+    width: 50px;
+    border: 1.5px solid rgb(181, 178, 178);
+    padding: 5px;
+}
