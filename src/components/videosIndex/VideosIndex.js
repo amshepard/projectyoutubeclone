@@ -35,11 +35,11 @@ const VideoIndex = ({ searchTerm }) => {
 
   const renderVideos = () => {
     return videos.map((video) => (
-      <div className="video" key={video.id} onClick={() => handleClick(video)}>
-        <img src={video.thumbnail} alt={video.title} />
-        <h3>{video.title}</h3>
-      </div>
-    ));
+        <div className="video" key={video.id} onClick={() => handleClick(video)}>
+          <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title} />
+          <h3>{video.snippet.title}</h3>
+        </div>
+      ));
   };
 
   return <div className="video-index">{renderVideos()}</div>;
