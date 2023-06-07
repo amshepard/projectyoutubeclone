@@ -1,0 +1,18 @@
+.video-index {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 300px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.video img {
+  width: 100%;
+}
+
+.video h3 {
+  margin: 5px 0;
+}
