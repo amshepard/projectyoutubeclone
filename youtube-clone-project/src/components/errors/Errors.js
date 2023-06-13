@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
-// Import custom CSS
+// Import custom CSS.
 import "./Errors.css";
 
 // Define function component ErrorMessage
